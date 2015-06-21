@@ -1,5 +1,7 @@
 # CleaningDataProject
 
+
+
 Open run_analisys.R in RStudio
 As long as you have downloaded the samsung data to your working directory it will perform the following:
 
@@ -10,7 +12,30 @@ Uses descriptive activity names to name the activities in the data set
 Appropriately labels the data set with descriptive variable names. 
 Creates a new second, independent tidy data set with the average of each variable for each activity and each subject.
 
+Prerequisites:
+
+run_analysis.R needs the following packages installed: dplyr, gdata, plyr, reshape2
+
+# #dplyr to use
+# install.packages("dplyr")
+# library(dplyr)
+# 
+# #gdata to use matchcols
+# install.packages("gdata")
+# library(gdata)
+# 
+# #plyr to use ddply
+# install.packages("plyr")
+# library(plyr)
+# 
+# #reshape2 to use melt
+# install.packages("reshape2")
+# library(reshape2)
+
+
+
 codebook
+
 The results.txt file generated in your working directory by running run_analisys.R contains the following data:
 activity_subject: key that contains the activity performed description and subject key that performed the activity.
 mean_tBodyAcc_mean_X           : mean of tBodyAcc_mean_X           accros subject and activity
