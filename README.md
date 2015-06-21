@@ -3,7 +3,7 @@
 
 
 Open run_analisys.R in RStudio
-As long as you have downloaded the samsung data to your working directory it will perform the following:
+My code downloads the samsung data to your working directory. It will perform the following steps:
 
 Unzip samsung data file
 Merges the training and the test sets to create one data set.
