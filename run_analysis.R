@@ -1,18 +1,20 @@
-#dplyr to use
-install.packages("dplyr")
-library(dplyr)
+#####  prerequisites:
 
-#gdata to use matchcols
-install.packages("gdata")
-library(gdata)
-
-#plyr to use ddply
-install.packages("plyr")
-library(plyr)
-
-#reshape2 to use melt
-install.packages("reshape2")
-library(reshape2)
+# #dplyr to use
+# install.packages("dplyr")
+# library(dplyr)
+# 
+# #gdata to use matchcols
+# install.packages("gdata")
+# library(gdata)
+# 
+# #plyr to use ddply
+# install.packages("plyr")
+# library(plyr)
+# 
+# #reshape2 to use melt
+# install.packages("reshape2")
+# library(reshape2)
 
 
 
@@ -193,4 +195,6 @@ results<-merge(results,ddply(X2, "activitysubject", summarise,  mean_fBodyBodyGy
 
 View(results)
 write.table(results, file="results.txt", row.names=FALSE)
+
+
 
