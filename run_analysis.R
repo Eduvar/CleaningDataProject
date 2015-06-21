@@ -1,26 +1,16 @@
-#####  prerequisites:
+#dplyr to use
+install.packages("dplyr")
+library(dplyr)
 
-# #dplyr to use
-# install.packages("dplyr")
-# library(dplyr)
-# 
-# #gdata to use matchcols
-# install.packages("gdata")
-# library(gdata)
-# 
-# #plyr to use ddply
-# install.packages("plyr")
-# library(plyr)
-# 
-# #reshape2 to use melt
-# install.packages("reshape2")
-# library(reshape2)
+#plyr to use ddply
+install.packages("plyr")
+library(plyr)
 
-
+### Assumes Dataset.zip file is downloaded from samsung into your working directory
 
 #download file
 
-download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip","Dataset.zip", method="curl")
+#download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip","Dataset.zip", method="curl")
 
 #unzip
 unzip("Dataset.zip")
@@ -195,6 +185,4 @@ results<-merge(results,ddply(X2, "activitysubject", summarise,  mean_fBodyBodyGy
 
 View(results)
 write.table(results, file="results.txt", row.names=FALSE)
-
-
 
