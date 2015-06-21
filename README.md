@@ -15,42 +15,28 @@ Prerequisites:
 
 run_analysis.R needs the following packages installed: dplyr, gdata, plyr, reshape2
 
-# #dplyr to use
-# install.packages("dplyr")
-# library(dplyr)
-# 
-# #gdata to use matchcols
-# install.packages("gdata")
-# library(gdata)
-# 
-# #plyr to use ddply
-# install.packages("plyr")
-# library(plyr)
-# 
-# #reshape2 to use melt
-# install.packages("reshape2")
-# library(reshape2)
-
-
-
 codebook
 
 The results.txt file generated in your working directory by running run_analisys.R contains the following data:
 
 Column name                 Description
 
-activity_subject            : key that contains the activity performed description and subject key that performed                               the activity.
+activity_subject        
 
-mean_tBodyAcc_mean_X        : mean of tBodyAcc_mean_X acros subject and activity
+key that contains the activity performed description and subject key that performed the activity. Values:         WALKING_X, WALKING_UPSTAIRS_X, WALKING_DOWNSTAIRS_X, SITTING_X, STANDING_X, LAYING_X. X represents the subject key.
 
-mean_tBodyAcc_mean_Y        : mean of tBodyAcc_mean_Y accros subject and activity
+mean_tBodyAcc_mean_X        
+  mean of tBodyAcc_mean_X acros subject and activity. This is a numeric value.
 
-mean_tBodyAcc_mean_Z        : mean of tBodyAcc_mean_Z accros subject and activity
-mean_tGravityAcc_mean_X     : mean of tGravityAcc_mean_X accros subject and activity
-mean_tGravityAcc_mean_Y     : mean of tGravityAcc_mean_Y accros subject and activity
-mean_tGravityAcc_mean_Z     : mean of tGravityAcc_mean_Z accros subject and activity
-mean_tBodyAccJerk_mean_X    : mean of tBodyAccJerk_mean_X accros subject and activity
-mean_tBodyAccJerk_mean_Y       : mean of tBodyAccJerk_mean_Y       accros subject and activity
+mean_tBodyAcc_mean_Y        
+  mean of tBodyAcc_mean_Y accros subject and activity. This is a numeric value.
+
+mean_tBodyAcc_mean_Z        : mean of tBodyAcc_mean_Z accros subject and activity. This is a numeric value.
+mean_tGravityAcc_mean_X     : mean of tGravityAcc_mean_X accros subject and activity. This is a numeric value.
+mean_tGravityAcc_mean_Y     : mean of tGravityAcc_mean_Y accros subject and activity. This is a numeric value.
+mean_tGravityAcc_mean_Z     : mean of tGravityAcc_mean_Z accros subject and activity. This is a numeric value.
+mean_tBodyAccJerk_mean_X    : mean of tBodyAccJerk_mean_X accros subject and activity. This is a numeric value.
+mean_tBodyAccJerk_mean_Y    : mean of tBodyAccJerk_mean_Y       accros subject and activity. This is a numeric value.
 mean_tBodyAccJerk_mean_Z      : mean of tBodyAccJerk_mean_Z      accros subject and activity
 mean_tBodyGyro_mean_X          : mean of tBodyGyro_mean_X          accros subject and activity
 mean_tBodyGyro_mean_Y          : mean of tBodyGyro_mean_Y          accros subject and activity
