@@ -1,7 +1,6 @@
 # CleaningDataProject
 
 
-
 Open run_analisys.R in RStudio
 My code downloads the samsung data to your working directory. It will perform the following steps:
 
@@ -37,14 +36,20 @@ run_analysis.R needs the following packages installed: dplyr, gdata, plyr, resha
 codebook
 
 The results.txt file generated in your working directory by running run_analisys.R contains the following data:
-activity_subject: key that contains the activity performed description and subject key that performed the activity.
-mean_tBodyAcc_mean_X           : mean of tBodyAcc_mean_X           accros subject and activity
-mean_tBodyAcc_mean_Y           : mean of tBodyAcc_mean_Y           accros subject and activity
-mean_tBodyAcc_mean_Z          : mean of tBodyAcc_mean_Z          accros subject and activity
-mean_tGravityAcc_mean_X        : mean of tGravityAcc_mean_X        accros subject and activity
-mean_tGravityAcc_mean_Y        : mean of tGravityAcc_mean_Y        accros subject and activity
-mean_tGravityAcc_mean_Z       : mean of tGravityAcc_mean_Z       accros subject and activity
-mean_tBodyAccJerk_mean_X      : mean of tBodyAccJerk_mean_X      accros subject and activity
+
+Column name                 Description
+
+activity_subject            : key that contains the activity performed description and subject key that performed                               the activity.
+
+mean_tBodyAcc_mean_X        : mean of tBodyAcc_mean_X acros subject and activity
+
+mean_tBodyAcc_mean_Y        : mean of tBodyAcc_mean_Y accros subject and activity
+
+mean_tBodyAcc_mean_Z        : mean of tBodyAcc_mean_Z accros subject and activity
+mean_tGravityAcc_mean_X     : mean of tGravityAcc_mean_X accros subject and activity
+mean_tGravityAcc_mean_Y     : mean of tGravityAcc_mean_Y accros subject and activity
+mean_tGravityAcc_mean_Z     : mean of tGravityAcc_mean_Z accros subject and activity
+mean_tBodyAccJerk_mean_X    : mean of tBodyAccJerk_mean_X accros subject and activity
 mean_tBodyAccJerk_mean_Y       : mean of tBodyAccJerk_mean_Y       accros subject and activity
 mean_tBodyAccJerk_mean_Z      : mean of tBodyAccJerk_mean_Z      accros subject and activity
 mean_tBodyGyro_mean_X          : mean of tBodyGyro_mean_X          accros subject and activity
