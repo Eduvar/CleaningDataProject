@@ -13,7 +13,7 @@ Creates a new second, independent tidy data set with the average of each variabl
 
 Prerequisites:
 
-run_analysis.R needs the following packages installed: dplyr, gdata, plyr, reshape2
+run_analysis.R needs the following packages installed: dplyr, plyr. Assumes Dataset.zip file is downloaded into your working directory.
 
 codebook
 
